@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const bodyParser = require("body-Parser");
+const bodyParser = require("body-parser");
 app.use(express.static(__dirname + "/views")); //use css for loading
 app.use(bodyParser.urlencoded({
   extended: true
