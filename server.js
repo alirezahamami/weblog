@@ -27,9 +27,6 @@ app.post("/", function(req, res) {
   res.redirect("/")
 })
 
-
-
-
 app.listen(process.env.PORT || 3000, function() {
   console.log("the server is started at 3000.")
 })
